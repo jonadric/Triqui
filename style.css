@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+.triki {
+	height: 300px;
+	width: 300px;
+	background-color: red;
+	font-size: 25px;
+	font-family: helvetica;
+	color: black;
+}
+.triki .row{
+	height: 100px;
+	border-bottom: 0.5px solid black;
+}
+.triki .row .cell{
+	width: 100px;
+	height: 100px;
+	float: left;
+	text-align: center;
+	padding-top: 35px;
+}
+.triki .row .cell{
+	border-right: 1px solid black;
+}
