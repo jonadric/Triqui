@@ -1,15 +1,25 @@
 * {
 	box-sizing: border-box;
 }
-.triki {
+h1{
+	text-align: center;
+	margin-top: 100px;
+}
+.container {
 	height: 300px;
 	width: 300px;
-	background-color: red;
+	background-color: grey;
 	font-size: 25px;
 	font-family: helvetica;
-	color: black;
+	text-align: center;
+}	
+
+#button{
+	margin-top: 40px;
+	padding: 30px 30px;
+	color: red;
 }
-.triki .row{
+/*.triki .row{
 	height: 100px;
 	border-bottom: 0.5px solid black;
 }
@@ -22,4 +32,4 @@
 }
 .triki .row .cell{
 	border-right: 1px solid black;
-}
+}*/
